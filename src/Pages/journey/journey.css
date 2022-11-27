@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Gobold';
+    src: url('/public/assets/fonts/Product_Sans.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+.Journey{
+    font-family: 'Gobold';
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.journey-box{
+    margin-top: 3%;
+    box-shadow: -1px 1px 5px 6px rgba(184,184,184,0.65);
+    -webkit-box-shadow: -1px 1px 5px 6px rgba(184,184,184,0.65);
+    -moz-box-shadow: -1px 1px 5px 6px rgba(184,184,184,0.65);
+    height: 90%;
+    width: 80%;
+}
+.journey-img{
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    background-image: url('/public/assets/grasspic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.journey-img span{
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: white;
+}
+.fade{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(180deg,transparent,rgb(0 0 0 / 70%),#000);
+}
+.journey-info{
+    width: 80%;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+}
+.bullets{
+    width: 7%;
+    background-color: black;
+    position: relative;
+}
+.timeline{
+    position: absolute;
+    margin-top: 2px;
+    right: 30px;
+    width: 2px;
+    height: 80%;
+    background-color: rgb(252, 252, 252);
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.journey-child{
+    padding-left: 10px;
+    padding-right: 10px;
+    /* height: 200px; */
+    width: 93%;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: right;
+}
+.roots{
+    font-size: 20px;
+    position: relative;
+    width: 97%;
+}
+.roots div{
+    font-size: 15px;
+  
+}
+#circle{
+    position: absolute;
+    left: -47px;
+    top: 2px;
+    font-size: 10px;
+}
